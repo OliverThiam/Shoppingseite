@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: #0B2027;
+}
+
+.header{
+    height: auto;
+    background-color: #4D685A;
+    color:beige;
+    padding: 1px 1px 1px 1px ;
+    font-size:medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#marke{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input{
+    height: 30px;
+    margin: auto 0 auto 0;
+    border-radius: 15px;
+    border-color: #3C896D;
+    width: 100%;
+
+}
+
+.uberschrift{
+    padding: 5px;
+   
+}
+
+#btn-el{
+    text-decoration: none;
+}
+
+.knopfheader{
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-left: 1px solid #3C896D;
+    border-right: #3C896D;
+    border-top: #4D685A;
+    border-bottom: #4D685A;
+    background-color: #4D685A;
+    font-size: large;
+    font-weight: bold;
+    color: beige;
+}
+
+.zweiterheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1cm;
+    background-color: #546D64 ;
+}
+
+.kategorie{
+    margin: 5px;
+    border: none;
+    background-color: #546D64;
+    color: white;
+}
+
+#shoppingcart{
+    border: none;
+    color: white;
+    background-color: #4D685A;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container div.unit img.bilder:hover{
+    width: 7.2cm;
+    height: 6.2cm;
+} 
+
+.bilder{
+    height: 6cm;
+    width: 7cm;
+    margin: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
+
+
+
+#unit{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.container div.unit button.einkaufswagen:hover{
+    box-shadow: 10px 10px 10px black;
+    padding: 7px 12px 7px 12px;
+
+}
+
+.einkaufswagen{
+    background-color: #FAF9F6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding: 5px 10px 5px 10px;   
+}
+
+.preis{
+    color: #40798C;
+    text-shadow: 5px 5px 5px black;
+}
